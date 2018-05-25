@@ -1,6 +1,9 @@
 package com.zapic.reactnativedemo;
 
+import android.os.Bundle;
+
 import com.facebook.react.ReactActivity;
+import com.zapic.sdk.android.Zapic;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +14,11 @@ public class MainActivity extends ReactActivity {
     @Override
     protected String getMainComponentName() {
         return "ZapicReactNativeDemo";
+    }
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        Zapic.attachFragment(this);
     }
 }

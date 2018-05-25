@@ -21,6 +21,14 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+
+        <!-- Zapic and Google Play Games -->
+        <meta-data
+            android:name="com.google.android.gms.games.APP_ID"
+            android:value="@string/play_games_app_id" />
+        <meta-data
+            android:name="com.google.android.gms.games.WEB_CLIENT_ID"
+            android:value="@string/play_games_web_client_id" />
     </application>
 
 </manifest>

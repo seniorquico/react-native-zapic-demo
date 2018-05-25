@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Zapic React Native Demo</string>
+
+    <!-- Zapic and Google Play Games -->
+    <string name="play_games_app_id">1080839588513</string>
+    <string name="play_games_web_client_id">1080839588513-0uoo8kvk0sn1dhrcht36p3trcj72962i.apps.googleusercontent.com</string>
 </resources>
